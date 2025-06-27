@@ -2,6 +2,11 @@
 
 A beautiful, cosmic-themed bridge interface for transferring ETH from Ethereum Sepolia to Zora Testnet. Built because the official bridge was broken! 🚀
 
+## 🌐 **Live Bridge**
+### **✨ [Use the Bridge: zora-testnet-bridge.vercel.app](https://zora-testnet-bridge.vercel.app/) ✨**
+
+> **Ready to bridge?** Click the link above to start bridging Sepolia ETH to Zora Testnet right now!
+
 ## 🌟 Features
 
 - **Wallet Connection**: Connect MetaMask or any Web3 wallet  
@@ -15,14 +20,20 @@ A beautiful, cosmic-themed bridge interface for transferring ETH from Ethereum S
 
 ## 🚀 Quick Start
 
-1. **Run locally**: `python3 -m http.server 8000`
-2. **Open browser**: Navigate to `http://localhost:8000`
-3. **Connect wallet**: Click "Connect Wallet" (MetaMask recommended)
-4. **Get Sepolia ETH**: Use [Sepolia Faucet](https://sepoliafaucet.com/) if needed
-5. **Bridge ETH**: Enter amount and click "Bridge to Zora"
-6. **Confirm transaction**: Approve in your wallet
-7. **Add Zora Network**: Click button to add Zora Testnet
-8. **Done!** Your ETH will appear on Zora in 5-10 minutes
+### **🌐 Use Live Bridge (Recommended)**
+1. **Visit**: [zora-testnet-bridge.vercel.app](https://zora-testnet-bridge.vercel.app/)
+2. **Connect wallet**: Click "Connect Wallet" (MetaMask recommended)
+3. **Get Sepolia ETH**: Use [Sepolia Faucet](https://sepoliafaucet.com/) if needed
+4. **Bridge ETH**: Enter amount and click "Bridge to Zora"
+5. **Confirm transaction**: Approve in your wallet
+6. **Add Zora Network**: Click button to add Zora Testnet
+7. **Done!** Your ETH will appear on Zora in 5-10 minutes
+
+### **💻 Run Locally (Optional)**
+1. **Clone repo**: `git clone https://github.com/dcjanio/zora-testnet-bridge.git`
+2. **Run server**: `python3 -m http.server 8000`
+3. **Open browser**: Navigate to `http://localhost:8000`
+4. **Follow steps 2-7** from above
 
 ## 🌐 Network Details
 
@@ -113,13 +124,14 @@ zorahack/
 ## 🌟 Quick Commands
 
 ```bash
-# Start local server
+# Use the live bridge (fastest)
+open https://zora-testnet-bridge.vercel.app/
+
+# Or run locally
+git clone https://github.com/dcjanio/zora-testnet-bridge.git
+cd zora-testnet-bridge
 python3 -m http.server 8000
-
-# Open in browser
 open http://localhost:8000
-
-# Or just double-click index.html!
 ```
 
 ---
