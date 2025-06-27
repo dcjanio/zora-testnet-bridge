@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZORA TESTNET BRIDGE ☾☼☽</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cosmic-bg"></div>
+    
+    <header>
+        <div class="header-content">
+            <h1 class="logo">ZORA ☾☼☽</h1>
+            <div class="tagline">TESTNET BRIDGE</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2 class="hero-title">
+                BRIDGE TO THE
+                <span class="gradient-text">LIGHT NETWORK</span>
+            </h2>
+            <p class="hero-subtitle">
+                Bridge your Sepolia ETH to Zora Testnet<br>
+                A new material deployed off Ethereum
+            </p>
+        </section>
+
+        <section class="bridge-card">
+            <div class="network-info">
+                <div class="network from-network">
+                    <div class="network-icon">⟡</div>
+                    <div class="network-details">
+                        <h3>Ethereum Sepolia</h3>
+                        <p>Testnet</p>
+                    </div>
+                </div>
+                
+                <div class="bridge-arrow">→</div>
+                
+                <div class="network to-network">
+                    <div class="network-icon">☾</div>
+                    <div class="network-details">
+                        <h3>Zora Testnet</h3>
+                        <p>Chain ID: 999999999</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wallet-section">
+                <button id="connectWallet" class="wallet-btn">
+                    <span id="walletText">CONNECT WALLET</span>
+                </button>
+                <div id="walletInfo" class="wallet-info hidden">
+                    <p>Connected: <span id="walletAddress"></span></p>
+                    <p>Balance: <span id="walletBalance">0</span> ETH</p>
+                </div>
+            </div>
+
+            <div class="bridge-form">
+                <div class="input-group">
+                    <label for="amount">Amount to Bridge</label>
+                    <div class="input-wrapper">
+                        <input type="number" id="amount" placeholder="0.1" step="0.001" min="0">
+                        <span class="currency">ETH</span>
+                        <button class="max-btn" id="maxBtn">MAX</button>
+                    </div>
+                </div>
+
+                <div class="bridge-details">
+                    <div class="detail-row">
+                        <span>Bridge Contract:</span>
+                        <span class="contract-address">0x5376f1D543dcbB5BD416c56C189e4cB7399fCcCB</span>
+                    </div>
+                    <div class="detail-row">
+                        <span>Gas Fee:</span>
+                        <span>~0.001 ETH</span>
+                    </div>
+                    <div class="detail-row">
+                        <span>Bridge Time:</span>
+                        <span>~5-10 minutes</span>
+                    </div>
+                </div>
+
+                <button id="bridgeBtn" class="bridge-btn" disabled>
+                    BRIDGE TO ZORA ☾☼☽
+                </button>
+            </div>
+        </section>
+
+        <section class="network-actions">
+            <button id="addNetworkBtn" class="action-btn">
+                <span class="btn-icon">⊕</span>
+                ADD ZORA TESTNET TO WALLET
+            </button>
+            
+            <button id="explorerBtn" class="action-btn secondary">
+                <span class="btn-icon">🔍</span>
+                EXPLORE ZORA TESTNET
+            </button>
+        </section>
+
+        <section class="instructions">
+            <h3>How to Bridge</h3>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Connect your wallet with Sepolia ETH</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Enter the amount you want to bridge</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Click "Bridge to Zora" and confirm the transaction</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <p>Add Zora Testnet to your wallet to see your bridged ETH</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>ZORA IS LIGHT • ENERGY • A FEELING • A PLACE • A NETWORK</p>
+            <p>NOW IT'S UP TO YOU ☾☼☽</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
