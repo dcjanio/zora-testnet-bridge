@@ -2,6 +2,14 @@
 
 A beautiful, cosmic-themed bridge interface for transferring ETH from Ethereum Sepolia to Zora Testnet. Built because the official bridge was broken! 🚀
 
+## ⚠️ **IMPORTANT DISCLAIMER**
+
+> **🚨 TESTNET ONLY - USE AT YOUR OWN RISK 🚨**
+>
+> This bridge is for **TESTNET purposes only**. Never use wallets containing real funds or mainnet ETH. 
+> Only use test wallets with Sepolia testnet ETH. The authors are not responsible for any loss of funds.
+> This is experimental software - use with caution and only for testing purposes.
+
 ## 🌐 **Live Bridge**
 ### **✨ [Use the Bridge: zora-testnet-bridge.vercel.app](https://zora-testnet-bridge.vercel.app/) ✨**
 
@@ -22,12 +30,13 @@ A beautiful, cosmic-themed bridge interface for transferring ETH from Ethereum S
 
 ### **🌐 Use Live Bridge (Recommended)**
 1. **Visit**: [zora-testnet-bridge.vercel.app](https://zora-testnet-bridge.vercel.app/)
-2. **Connect wallet**: Click "Connect Wallet" (MetaMask recommended)
-3. **Get Sepolia ETH**: Use [Sepolia Faucet](https://sepoliafaucet.com/) if needed
-4. **Bridge ETH**: Enter amount and click "Bridge to Zora"
-5. **Confirm transaction**: Approve in your wallet
-6. **Add Zora Network**: Click button to add Zora Testnet
-7. **Done!** Your ETH will appear on Zora in 5-10 minutes
+2. **⚠️ Use test wallet only** - Never use wallets with real mainnet funds!
+3. **Connect wallet**: Click "Connect Wallet" (MetaMask recommended)
+4. **Get Sepolia ETH**: Use [Sepolia Faucet](https://sepoliafaucet.com/) if needed
+5. **Bridge ETH**: Enter amount and click "Bridge to Zora"
+6. **Confirm transaction**: Approve in your wallet
+7. **Add Zora Network**: Click button to add Zora Testnet
+8. **Done!** Your ETH will appear on Zora in 5-10 minutes
 
 ### **💻 Run Locally (Optional)**
 1. **Clone repo**: `git clone https://github.com/dcjanio/zora-testnet-bridge.git`
@@ -82,6 +91,19 @@ This bridge uses a **simple ETH transfer** approach:
 - ✅ **Verified contract** - Using official Zora bridge contract
 - ✅ **Simple approach** - Just sends ETH, no complex smart contract calls
 - ✅ **Local first** - Runs entirely in your browser
+
+## ⚖️ **Legal & Risk Disclaimer**
+
+**USE AT YOUR OWN RISK** - This software is provided "as is" without warranties of any kind. 
+
+- 🧪 **Testnet Only**: Only use with Sepolia testnet ETH, never mainnet funds
+- 🚫 **No Liability**: Authors are not responsible for any loss of funds
+- 🔬 **Experimental**: This is experimental software for testing purposes
+- 👛 **Test Wallets**: Use dedicated test wallets with no real value
+- ⚠️ **No Guarantees**: Bridge functionality may fail or behave unexpectedly
+- 📝 **Your Responsibility**: Verify all transactions before confirming
+
+By using this bridge, you acknowledge these risks and agree to use it solely for testnet purposes.
 
 ## 📱 Browser Compatibility
 
@@ -149,4 +171,35 @@ This bridge captures the Zora vibe with:
 
 **NOW IT'S UP TO YOU** ☾☼☽
 
-Built with ❤️ for the Zora community 
+## 🤝 **Open Source & Contributing**
+
+This project is **100% open source** and welcomes contributions from the community!
+
+### **📚 GitHub Repository**
+🔗 **[github.com/dcjanio/zora-testnet-bridge](https://github.com/dcjanio/zora-testnet-bridge)**
+
+### **🛠 How to Contribute**
+- 🐛 **Report bugs** - Found an issue? Open an issue on GitHub
+- 💡 **Suggest features** - Have ideas? We'd love to hear them  
+- 🔧 **Submit PRs** - Fix bugs, add features, improve documentation
+- ⭐ **Star the repo** - Show your support for the project
+- 🍴 **Fork & modify** - Customize it for your own needs
+
+### **🎯 Ways to Help**
+- Improve the UI/UX design
+- Add support for more networks
+- Enhance error handling
+- Write better documentation
+- Add tests and security improvements
+- Translate to other languages
+
+### **📜 Legal & Disclaimers**
+
+> **⚠️ USE AT YOUR OWN RISK - TESTNET ONLY ⚠️**
+>
+> This bridge is for **testnet purposes only**. Never use wallets containing real mainnet funds.
+> Only use test wallets with Sepolia testnet ETH. The authors disclaim all liability for any 
+> loss of funds, damages, or issues arising from use of this software. This is experimental 
+> software provided "as is" without warranties. Users assume all responsibility and risk.
+
+Built with ❤️ for the Zora community by [@dcjanio](https://github.com/dcjanio) 

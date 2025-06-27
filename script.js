@@ -56,6 +56,11 @@ class ZoraBridge {
             window.open('https://sepolia.explorer.zora.energy', '_blank');
         });
 
+        // GitHub Button
+        document.getElementById('githubBtn').addEventListener('click', () => {
+            window.open('https://github.com/dcjanio/zora-testnet-bridge', '_blank');
+        });
+
         // Max Button
         document.getElementById('maxBtn').addEventListener('click', () => {
             this.setMaxAmount();
